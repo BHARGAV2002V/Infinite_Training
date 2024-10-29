@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D94FCCE9-CF4B-4569-B478-EB50A52A297A}</ProjectGuid>
+    <ProjectGuid>{EDA9CF41-64B5-4D07-A9CC-9EF125EEB48C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Training1</RootNamespace>
-    <AssemblyName>Training1</AssemblyName>
+    <RootNamespace>Assignment1</RootNamespace>
+    <AssemblyName>Assignment1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Training1.Class1</StartupObject>
+    <StartupObject>Assignment1.Q5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,9 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Q2.cs" />
+    <Compile Include="Q3.cs" />
+    <Compile Include="Q4.cs" />
+    <Compile Include="Q5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

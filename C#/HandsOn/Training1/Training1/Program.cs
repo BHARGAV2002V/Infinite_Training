@@ -22,12 +22,19 @@ namespace Training1
             Console.WriteLine(f);
             int t = (int)f;
             Console.WriteLine(t);
-            Console.ReadLine();
 
             /* ----------------Parse and TryParse-----------------*/
-            String str = "31";
+            String str = "3141";
             int n = int.Parse(str);
             Console.WriteLine(n);
+
+            String s = "bhargav";
+            int res = 0;
+            bool b = int.TryParse(s, out res);
+            Console.WriteLine(b);
+            Console.ReadLine();
+
+            /*-----------------------Boxing and Unboxing---------------*/
 
 
         }
