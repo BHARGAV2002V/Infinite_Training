@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D94FCCE9-CF4B-4569-B478-EB50A52A297A}</ProjectGuid>
+    <ProjectGuid>{BF5D06B5-F37C-40EA-8F52-9DCA9AE6FDD4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Training1</RootNamespace>
-    <AssemblyName>Training1</AssemblyName>
+    <RootNamespace>Assignment3</RootNamespace>
+    <AssemblyName>Assignment3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Training1.Operator_Overloading</StartupObject>
+    <StartupObject>Assignment3.Inheritance3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Inheritance1.cs" />
+    <Compile Include="Inheritance2.cs" />
+    <Compile Include="Inheritance3.cs" />
+    <Compile Include="String1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Distance.cs" />
+    <Compile Include="String2.cs" />
+    <Compile Include="String3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
