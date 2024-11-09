@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D94FCCE9-CF4B-4569-B478-EB50A52A297A}</ProjectGuid>
+    <ProjectGuid>{ED8C8278-752F-4BEC-8C88-37F9AC2133A3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Training1</RootNamespace>
-    <AssemblyName>Training1</AssemblyName>
+    <RootNamespace>Assignment4</RootNamespace>
+    <AssemblyName>Assignment4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Training1.comparer</StartupObject>
+    <StartupObject>Assignment4.Question5</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="comparer.cs" />
-    <Compile Include="Exception.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Distance.cs" />
+    <Compile Include="Question2.cs" />
+    <Compile Include="Question3.cs" />
+    <Compile Include="Question4.cs" />
+    <Compile Include="Question5.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
