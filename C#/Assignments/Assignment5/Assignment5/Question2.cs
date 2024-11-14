@@ -21,7 +21,7 @@ namespace Assignment5
 
 
             string path = "OUTPUT5.txt";
-            FileStream fs = new FileStream(path, FileMode.Append, FileAccess.Write);
+            FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(fs);
             foreach(string s in str)
             {

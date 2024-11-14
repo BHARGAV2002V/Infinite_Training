@@ -13,7 +13,7 @@ namespace Assignment5
             if (File.Exists(path))
             {
                 int count = File.ReadAllLines(path).Length;
-                Console.WriteLine(count);
+                Console.WriteLine("Number of Lines in file {0}",count);
             }
             else
             {
