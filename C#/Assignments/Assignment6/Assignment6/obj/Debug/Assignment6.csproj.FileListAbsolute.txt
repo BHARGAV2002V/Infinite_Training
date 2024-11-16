@@ -1,0 +1,10 @@
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe.config
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.exe
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\bin\Debug\Assignment6.pdb
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.AssemblyReference.cache
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CoreCompileInputs.cache
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.exe
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.pdb
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\bin\Debug\TravelConcession.dll
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\bin\Debug\TravelConcession.pdb
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\Assignment6\obj\Debug\Assignment6.csproj.CopyComplete

@@ -1,0 +1,6 @@
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\bin\Debug\TravelConcession.dll
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\bin\Debug\TravelConcession.pdb
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\obj\Debug\TravelConcession.csproj.AssemblyReference.cache
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\obj\Debug\TravelConcession.csproj.CoreCompileInputs.cache
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\obj\Debug\TravelConcession.dll
+C:\Infinite training\Training_Official\C#\Assignments\Assignment6\TravelConcession\obj\Debug\TravelConcession.pdb

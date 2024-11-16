@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D94FCCE9-CF4B-4569-B478-EB50A52A297A}</ProjectGuid>
+    <ProjectGuid>{391EA153-55FE-4AD1-A4BF-7FB2838A8A78}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Training1</RootNamespace>
-    <AssemblyName>Training1</AssemblyName>
+    <RootNamespace>Assignment6</RootNamespace>
+    <AssemblyName>Assignment6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Training1.lambda2</StartupObject>
+    <StartupObject>Assignment6.Question4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,18 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="comparer.cs" />
-    <Compile Include="Exception.cs" />
-    <Compile Include="lambda.cs" />
-    <Compile Include="lambda2.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Question1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Distance.cs" />
-    <Compile Include="threading.cs" />
+    <Compile Include="Question2.cs" />
+    <Compile Include="Question3.cs" />
+    <Compile Include="Question4.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TravelConcession\TravelConcession.csproj">
+      <Project>{cb11de33-9cf7-41b5-aba1-e781002531d5}</Project>
+      <Name>TravelConcession</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
