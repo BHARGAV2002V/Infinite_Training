@@ -1,0 +1,7 @@
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\obj\Debug\AbstractFactory.csproj.AssemblyReference.cache
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Infinite training\Training_Official\C#\HandsOn\AbstractFactory\AbstractFactory\obj\Debug\AbstractFactory.pdb

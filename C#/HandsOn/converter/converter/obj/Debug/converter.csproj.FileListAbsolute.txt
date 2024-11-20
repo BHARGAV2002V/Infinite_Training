@@ -1,0 +1,7 @@
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\bin\Debug\converter.exe.config
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\bin\Debug\converter.exe
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\bin\Debug\converter.pdb
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\obj\Debug\converter.csproj.AssemblyReference.cache
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\obj\Debug\converter.csproj.CoreCompileInputs.cache
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\obj\Debug\converter.exe
+C:\Infinite training\Training_Official\C#\HandsOn\converter\converter\obj\Debug\converter.pdb
