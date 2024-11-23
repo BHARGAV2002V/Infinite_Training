@@ -13,17 +13,9 @@ namespace AbstractFactory
         static void Main(string[] args)
         {
             Console.WriteLine("Enter furniture Type (modern or vintage)");
-            string n = Console.ReadLine();
-            IFurnitureFactory factory=null;
-            if (n.Equals("modern"))
-            {
-                factory = new ModernFactory();
-            }
-            else if (n.Equals("vintage"))
-            {
-                factory = new VintageFactory();
-            }
-            Console.WriteLine("Enter furniture  (chair or sofa)");
+            string furnituretype = Console.ReadLine();
+            IFurnitureFactory factory=FurnitureFactory.GetFactory(furnituretype);
+            Console.WriteLine("Enter furniture product(chair or sofa)");
             string str = Console.ReadLine();
             if (str.Equals("chair"))
             {

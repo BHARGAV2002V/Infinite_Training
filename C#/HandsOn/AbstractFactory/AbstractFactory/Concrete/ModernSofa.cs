@@ -10,7 +10,7 @@ namespace AbstractFactory.Concrete
     {
         public void LayOn()
         {
-            Console.WriteLine("Lay On Modern Sofa");
+            Console.WriteLine("Laying On Modern Sofa");
         }
     }
 }

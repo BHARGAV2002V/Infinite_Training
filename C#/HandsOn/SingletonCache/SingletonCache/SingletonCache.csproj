@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D1C0C34-FF6A-4562-83A7-EE96DB4472F4}</ProjectGuid>
+    <ProjectGuid>{752E14E3-EBCB-4CE1-BC5E-508D368159F0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractFactory</RootNamespace>
-    <AssemblyName>AbstractFactory</AssemblyName>
+    <RootNamespace>SingletonCache</RootNamespace>
+    <AssemblyName>SingletonCache</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,22 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IChair.cs" />
-    <Compile Include="Abstract\ISofa.cs" />
-    <Compile Include="Concrete\ModernChair.cs" />
-    <Compile Include="Concrete\ModernSofa.cs" />
-    <Compile Include="Concrete\VintageChair.cs" />
-    <Compile Include="Concrete\VintageSofa.cs" />
-    <Compile Include="Factories\FurnitureFactory.cs" />
-    <Compile Include="Factories\IFurnitureFactory.cs" />
-    <Compile Include="Factories\ModernFactory.cs" />
-    <Compile Include="Factories\VintageFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
