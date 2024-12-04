@@ -5,3 +5,5 @@ C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\
 C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\Training1.csproj.CoreCompileInputs.cache
 C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\Training1.exe
 C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\Training1.pdb
+C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\Training1.Form1.resources
+C:\Infinite training\Training_Official\C#\HandsOn\Training1\Training1\obj\Debug\Training1.csproj.GenerateResource.cache
