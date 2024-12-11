@@ -1,0 +1,7 @@
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\bin\Debug\Assessment3_ADO.exe.config
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\bin\Debug\Assessment3_ADO.exe
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\bin\Debug\Assessment3_ADO.pdb
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\obj\Debug\Assessment3_ADO.csproj.AssemblyReference.cache
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\obj\Debug\Assessment3_ADO.csproj.CoreCompileInputs.cache
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\obj\Debug\Assessment3_ADO.exe
+C:\Infinite training\Training_Official\SQL\Assessments\Assessment3\Assessment3_ADO\Assessment3_ADO\obj\Debug\Assessment3_ADO.pdb
