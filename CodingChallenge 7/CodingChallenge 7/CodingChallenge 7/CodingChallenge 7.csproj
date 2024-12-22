@@ -50,10 +50,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Button.html" />
+    <Content Include="Even_Odd.html" />
     <Content Include="HTML1.html" />
     <Content Include="HTML2.html" />
     <Content Include="HTML3.html" />
-    <Content Include="JavaScript2.js" />
     <Content Include="Multiplication_and_division.html" />
     <Content Include="multiplication_and_division.js" />
   </ItemGroup>

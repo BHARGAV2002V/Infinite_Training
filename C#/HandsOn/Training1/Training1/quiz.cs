@@ -23,19 +23,26 @@ namespace Training1
                   Console.WriteLine(++x+X+_val+@val++);
                   Console.ReadLine();*/
 
-            int x = 10, y = 0;
-            object bx = x;
-            x = x + 5;
-            y++;
-            Console.WriteLine((int)bx/y);
-            x++;
-            bx = x;
-            Console.WriteLine((int)bx/y);
-            Console.ReadLine();
+            //int x = 10, y = 0;
+            //object bx = x;
+            //x = x + 5;
+            //y++;
+            //Console.WriteLine((int)bx/y);
+            //x++;
+            //bx = x;
+            //Console.WriteLine((int)bx/y);
+
+            int[] nums = { 1, -2, 3, 0, -4, 5 };
+            var posNums = from n in nums where n >= 0 select n;
+            foreach (int i in posNums)
+            {
+                Console.Write(i + " "); Console.WriteLine(); Console.ReadLine();
+                Console.ReadLine();
+
+
+            }
 
 
         }
-
-
     }
 }
