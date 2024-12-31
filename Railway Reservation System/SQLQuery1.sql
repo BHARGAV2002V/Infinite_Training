@@ -292,38 +292,22 @@ create OR alter procedure CancelBooking
 as
 begin
     -- Declare variables
-    declare @seatsbooked int,
-            @trainid int,
-            @classid int,
-            @totalberths int,
-            @waitlistid INT,
-            @userid INT,
-            @passengername varchar(100),
-            @passengerage INT,
-            @passengergender varchar(10),
+declare @seatsbooked int, @trainid int, @classid int,@totalberths int,@waitlistid INT,@userid INT,@passengername varchar(100),@passengerage INT,@passengergender varchar(10),
             @traveldate DATE,
             @totalfare DECIMAL(10, 2);
  
     -- Check if the booking exists and is not already canceled
-    if EXISTS (select 1 from bookings where bookingid = @bookingid AND bookingstatus != 'cancelled')
+ if EXISTS (select 1 from bookings where bookingid = @bookingid AND bookingstatus != 'cancelled')
     begin
         -- Get booking details
         select
-            @seatsbooked = seatsbooked,
-            @trainid = trainid,
-            @classid = classid
-        from bookings
-        where bookingid = @bookingid;
+            @seatsbooked = seatsbooked,@trainid = trainid,@classid = classid from bookings where bookingid = @bookingid;
  
         -- Get total berths for this train and class
-        select @totalberths = totalberths
-        from trainclasses
-        where trainid = @trainid AND classid = @classid;
+select @totalberths = totalberths from trainclasses where trainid = @trainid AND classid = @classid;
  
         -- Update booking status to 'cancelled'
-        update bookings
-        set bookingstatus = 'cancelled'
-        where bookingid = @bookingid;
+        update bookings set bookingstatus = 'cancelled' where bookingid = @bookingid;
  
         -- Update available berths, ensuring it does not exceed total berths
         update trainclasses
@@ -354,7 +338,6 @@ begin
             FROM trainclasses
             WHERE trainid = @trainid AND classid = @classid;
  
-            -- Insert into bookings using VALUES()
 			update bookings set bookingstatus='Booked' where bookingid=(select top 1 bookingid from waitlist)
             -- Remove the waitlist entry
             delete FROM waitlist
