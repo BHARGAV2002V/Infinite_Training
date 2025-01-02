@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Question2_MVC.Models.Movie>
+<div class="container mt-5">
+    <h2>Movies List</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Movie Name</th>
+                <th>Date of Release</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+<tr>
+    <td>@movie.Mid</td>
+    <td>@movie.Moviename</td>
+    <td>@movie.DateofRelease.ToShortDateString()</td>
+    <td>
+        <a href="@Url.Action("Details", "Movies", new { id = movie.Mid })" class="btn btn-info">Details</a>
+        <a href="@Url.Action("Edit", "Movies", new { id = movie.Mid })" class="btn btn-primary">Edit</a>
+    </td>
+</tr>            }
+        </tbody>
+    </table>
+</div>
+
+
+
