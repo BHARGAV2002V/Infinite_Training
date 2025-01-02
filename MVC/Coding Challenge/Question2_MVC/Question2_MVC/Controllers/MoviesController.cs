@@ -9,7 +9,7 @@ namespace Question2_MVC.Controllers
 {
     public class MoviesController : Controller
     {
-        private readonly MovieRepository mR = new MovieRepository(new MoviesContext());
+        MovieRepository mR = new MovieRepository(new MoviesContext());
 
         public ActionResult Create()
         {
