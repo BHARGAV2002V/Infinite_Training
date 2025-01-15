@@ -36,12 +36,17 @@ namespace ETradingClient.Controllers
                 return RedirectToAction("Login", "Account");
             }
 
-            if (Session["Role"].ToString().ToLower().Equals("vendor"))
+            if (Session["Role"] != null) 
             {
-                return RedirectToAction("Add", "VendorProfile");
+                if (Session["Role"].ToString().ToLower().Equals("vendor"))
+                {
+                    return RedirectToAction("Add", "VendorProfile");
+                }
             }
 
-                return View(new Customer()); // Display empty form
+        
+
+            return View(new Customer()); // Display empty form
         }
 
         // POST: Profile/Add
